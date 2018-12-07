@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<style type="text/css">
+		.mui-table-view{
+			margin-top:44px;
+		}
+		.select{
+			margin-right:80px;
+			background: #2AC845;
+			border:1px solid #2AC845;
+		}
+		.add{
+			position: fixed;
+			bottom:0;
+			z-index:999;
+		}
+	</style>
+    
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">成员列表</h1>
+	</header>
+		<div class="mui-scroll-wrapper">
+			<div class="mui-scroll">
+				<ul class="mui-table-view mui-list list">
+					
+					
+				</ul>
+			</div>
+		</div>
+		
+		
+		<span class="mui-icon mui-icon-plus add"></span>
+		<script src="js/libs/require.js" data-main="./js/page/index.js"></script>
+		<!-- <script>
+			mui('.mui-scroll-wrapper').scroll({
+				deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+			});
+			$(".mui-btn-danger").on("click",function(){
+				console.log(5555)
+			})
+		</script> -->
+</body>
+</html>
